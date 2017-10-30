@@ -1,0 +1,340 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		outline: 0;
+		font-weight: inherit;
+		font-style: inherit;
+		font-size: 100%;
+		font-family: inherit;
+		vertical-align: baseline;
+}
+
+/* remember to define focus styles! */
+:focus {
+		outline: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+		content: " ";
+		display: table;
+}
+
+.clearfix:after {
+		clear: both;
+}
+
+*,
+*:after,
+*:before {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+}
+
+
+body, html { font-size: 100%;       padding: 0; margin: 0;}
+
+body {
+		font-family: 'Open Sans', sans-serif;
+		color: #000000;
+		background: #ffffff;
+		line-height: 30px;
+		font-size: 14px;
+}
+
+a {
+		color: #000000;
+		text-decoration: none;
+		font-size: 14px;
+		font-weight: 400;
+}
+
+p {
+		color: #000000;
+		font-size: 14px;
+		font-weight: 400;
+}
+h2 {
+		font-size: 19px;
+		line-height: 30px;
+}
+h3 {
+		margin-bottom: 10px;
+		margin-top: 10px;
+}
+
+h4 {
+		margin-bottom: 10px;
+		font-size: 30px;
+		font-weight: bold;
+}
+
+l, ul {
+		list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+		border-collapse: separate;
+		border-spacing: 0;
+}
+caption, th, td {
+		text-align: left;
+		font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+		content: "";
+}
+blockquote, q {
+		quotes: "" "";
+}
+
+span {
+		font-size: 10px;
+}
+img {
+		vertical-align: middle;
+}
+
+
+
+
+
+
+
+/*padding*/ 
+.p60{
+	padding: 65px;
+}
+
+
+/*padding-top*/ 
+.pt11 {
+	padding-top: 11px;
+}
+/*padding-bottom*/ 
+.pb10{
+	padding-bottom: 10px;
+}
+/*padding-right*/ 
+.pr10{
+	padding-right: 10px;
+}
+/*padding-left*/ 
+.pl10{
+	padding-left: 10px;
+}
+.pl20{
+	padding-left: 20px;
+}
+
+
+/*margin*/
+
+
+.mr10 {
+		margin-right: 10px;
+}
+.mt10 {
+		margin-top: 10px;
+}
+.mt20 {
+		margin-top: 20px;
+}
+.mt30 {
+		margin-top: 30px;
+}
+.mb10 {
+	margin-bottom: 10px;
+}
+
+.mb30 {
+		margin-bottom: 30px;
+}
+.mr30 {
+		margin-right: 30px;
+}
+.ml10 {
+		margin-left: 10px;
+}
+.margin-auto {
+	margin: 0 auto;
+}
+/*width*/
+.width80 {
+	width: 80%;
+}
+.width90 {
+	 width: 90%;
+}
+.width90-news {
+	 width: 90%;
+}
+.width180px {
+	width: 180px;
+}
+.width200px {
+	width: 200px;
+}
+.width260px {
+	width: 260px;
+}
+.width300px {
+	width: 300px;
+}
+.width400px {
+	width: 400px;
+}
+.width800px {
+	width: 800px;
+}
+
+.width150px {
+	width: 150px;
+}
+.width100px {
+	width: 100px;
+}
+
+/*height*/
+.height80px{
+	height: 80px;
+}
+
+/*float*/
+.floatr {
+		float: right;
+}
+
+.floatl {
+		float: left;
+}
+.floatno {
+	float: none;
+}
+/*text-align*/
+
+.tac {
+		text-align: center;
+}
+.tar {
+	text-align: right;
+}
+.tal {
+	text-align: left;
+}
+.bottom0 {
+		left: 0;
+		bottom: 0;
+		position: absolute;
+}
+.mt-30 {
+	margin-top: -30px;
+}
+.required label:after{
+	color: #e32;
+	content: ' *';
+	display: inline-block;
+}
+
+  
+textarea {
+		resize: none;
+		width: 100%;
+		border: none;
+		margin-bottom: 10px;
+		padding: 5px;
+		box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+
+}
+input {
+		resize: none;
+		width: 100%;
+		border: none;
+		background: #ffffff;
+		margin-bottom: 10px;
+		padding: 5px;
+		box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+button {
+		float: right;
+		border: none;
+		padding:2px 10px;
+		background: #6bb9f0;
+		color: #ffffff;
+		margin: 10px 0;
+}
+
+
+button:hover {
+		box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+		font-weight: bold;
+}
+
+
+
+
+
+/*Products detail*/
+
+
+
+
+
+@media only screen and (max-width: 1460px) {
+
+}
+@media only screen and (max-width: 1300px) {
+
+}
+@media only screen and (max-width: 1200px) {
+
+}
+@media only screen and (max-width: 1170px) {
+  
+}
+@media only screen and (max-width: 1120px) {
+
+}
+@media only screen and (max-width: 1024px) {
+
+}
+@media only screen and (max-width: 991px) {
+
+}
+@media only screen and (max-width: 950px) {
+
+}
+@media only screen and (max-width: 850px) {
+
+}
+@media only screen and (max-width: 800px) {
+	 
+}
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (max-width: 700px) {
+
+}
+@media only screen and (max-width: 600px) {
+
+}
+@media only screen and (max-width: 550px) {
+
+}
+
+@media only screen and (max-width: 425px) {
+
+}
+
