@@ -47,20 +47,20 @@ body {
 		font-family: 'Open Sans', sans-serif;
 		color: #000000;
 		background: #ffffff;
-		line-height: 30px;
-		font-size: 14px;
+		line-height: 20px;
+		font-size: 13px;
 }
 
 a {
 		color: #000000;
 		text-decoration: none;
-		font-size: 14px;
+		font-size: 13px;
 		font-weight: 400;
 }
 
 p {
 		color: #000000;
-		font-size: 14px;
+		font-size: 13px;
 		font-weight: 400;
 }
 h2 {
@@ -112,6 +112,8 @@ img {
 
 
 /*padding*/ 
+.p0 {
+	padding: 0;}
 .p60{
 	padding: 65px;
 }
@@ -157,6 +159,12 @@ img {
 	margin-bottom: 10px;
 }
 
+.mb10 {
+		margin-bottom: 10px;
+}
+.mb20 {
+		margin-bottom: 20px;
+}
 .mb30 {
 		margin-bottom: 30px;
 }
@@ -246,7 +254,7 @@ img {
 	display: inline-block;
 }
 
-  
+ /* 
 textarea {
 		resize: none;
 		width: 100%;
@@ -281,7 +289,7 @@ button:hover {
 		font-weight: bold;
 }
 
-
+*/
 
 
 

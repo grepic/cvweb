@@ -1,29 +1,21 @@
-/* form */
-body{
-    background:#efefef;
+
+.form-white{
+    background:#ffffff;
+    padding: 0;
+    position: relative;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
 }
-.form-body{
-    background:#fff;
-    padding:20px;
-}
-.login-form{
-    background:rgba(255,255,255,0.8);
-  padding:20px;
-  border-top:3px solid#3e4043;
-}
-.innter-form{
-  padding-top:20px;
 }
 .final-login li{
   width:50%;
-}
-
-.nav-tabs {
-    border-bottom: none !important;
-}
-
-.nav-tabs>li{
-  color:#222 !important;
 }
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
     color: #fff;
@@ -34,11 +26,12 @@ body{
 }
 .nav-tabs>li>a {
     margin-right: 2px;
-    line-height: 1.428571429;
+    line-height: 14px;
     border: none !important;
     border-radius:none !important;
   text-transform:uppercase;
-  font-size:16px;
+  font-size:13px;
+  padding: 5px 10px;
 }
 
 .social-login{
@@ -54,7 +47,7 @@ body{
   list-style-type:none;
 }
 .social-login ul li{
-  width:33%;
+  width:33.3333%;
   float:left;
     clear:fix;
 }
@@ -76,11 +69,11 @@ body{
 }
 .sa-innate-form input[type=text], input[type=password], input[type=file], textarea, select, email{
     font-size:13px;
-  padding:10px;
+  padding:0 5px;
   border:1px solid#ccc;
   outline:none;
   width:100%;
-  margin:8px 0;
+  margin: 0;
   
 }
 .sa-innate-form input[type=submit]{
@@ -88,7 +81,7 @@ body{
   background:#e64b3b;
   color:#fff;
   padding:10px 25px;
-  font-size:14px;
+  font-size:13px;
   margin-top:5px;
   }
   .sa-innate-form input[type=submit]:hover{
@@ -102,7 +95,7 @@ body{
   background:#e64b3b;
   color:#fff;
   padding:10px 25px;
-  font-size:14px;
+  font-size:13px;
   margin-top:5px;
   }
   .sa-innate-form button:hover{
@@ -110,11 +103,6 @@ body{
   background:#db3b2b;
   color:#fff;
   }
-    .sa-innate-form p{
-        font-size:13px;
-        padding-top:10px;
-    }
-
 
 
 
