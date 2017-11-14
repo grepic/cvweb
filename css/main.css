@@ -7,9 +7,16 @@ body {
   background-color: #ffffff;
   overflow-x: hidden;
 }
-html {
-  width: 100%;
-  height: 100%;
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(../img/Preloader7.gif) center no-repeat #fff;
 }
 .border-container {
 	width: 1004px;

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
 
 <head>
 
@@ -20,596 +20,379 @@
 	<link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
 	<!-- Theme CSS -->
 	<link href="css/root.css" rel="stylesheet">
 	<link href="css/swiper.css" rel="stylesheet">
 	<link href="css/agency.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
+	<link href="css/mdb.css" rel="stylesheet">
+	<link href="css/fluid-gallery.css" rel="stylesheet">
+	<link href="css/baguetteBox.css" rel="stylesheet">
 	<link href="css/upload.css" rel="stylesheet">
 
-	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-	<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-	<![endif]-->
-
 </head>
+		
 		<body>
+			<div style="height: 40px; position: absolute; z-index: 9999; background: #ffffff;">
+        <a href="http://www.youronlineporn.com/cvweb/upload.html" target="_blank">http://www.youronlineporn.com/cvweb/upload.html</a><br>
+        <a href="http://www.youronlineporn.com/cvweb" target="_blank">http://www.youronlineporn.com/cvweb</a>
+        
+    </div>
 			<div class="container">
-			<hr>
 			  <!-- left column -->
-			  	<div class="col-md-3 sticky-upload">
-					<div class="tac">
-				  		<div id="profile-container">
-						   <image id="profileImage" src="http://lorempixel.com/100/100" />
+				<div class="col-md-3 sticky-upload">
+					<div class="col-xs-12">
+						<div class="dropzone" data-width="960" data-editstart="true" data-dimensionsonly="true" data-height="960" data-originalsize="false" data-url="upload.php" style="width: 100%;" data-image="img/preview.jpg">
+							<input type="file" name="thumb" />
 						</div>
-						<input id="imageUpload" type="file"  name="profile_photo" placeholder="Photo" required="" capture>
-				  		<h6>Upload a different photo...</h6>
-				  		<input type="file" class="form-control">
-				  		<div id="image-cropper">
-  <div class="cropit-preview"></div>
-  
-  <input type="range" class="cropit-image-zoom-input" />
-  
-  <input type="file" class="cropit-image-input" />
-  <div class="select-image-btn">Select new image</div>
-</div>
 					</div>
-        			<div>
-	                    <ul class="nav ">
-	                        <li class="nav-header">Sidebar</li>
-	                        <li class="active">
-	                        	<a href="#">Obecné</a>
-	                        </li>
-	                        <li>
-	                        	<a href="#">Zabezpečení a přihlášení</a>
-	                        </li>
-	                        <li>
-	                        	<a href="#">Šablo</a>
-	                        </li>
-	                        <li>
-	                        	<a href="#">Soukromí</a>
-	                        </li>
-	                        <li>
-	                        	<a href="#">Jazyk</a>
-	                        </li>
-	                        <li>
-	                        	<a href="#">Upozornění</a>
-	                        </li>
-	                        <li>
-	                        	<a href="#">Mobil</a>
-	                        </li>
-	                        <li>
-	                        	<a href="#">Videa</a>
-	                        </li>
-	                        <li>
-	                        	<a href="#">Obrázky</a>
-	                        </li>
-	                    </ul>
-        			</div>
-			        <div id="portfolio">
-		                <div class="col-sm-12 portfolio-item">
-		                    <a href="#portfolioModal1" class="portfolio-link eqheight2" data-toggle="modal">
-		                        <div class="portfolio-hover">
-		                            <div class="portfolio-hover-content">
-		                                <i class="fa fa-search fa-3x"></i>
-		                            	<p>PREWIEV</p>
-		                            </div>
-		                        </div>
-		                        <img src="img/theme/cv1.jpg" class="img-responsive" alt="">
-		                    </a>
-		                </div>
-			        </div>
-    			</div>
-			  	<div class="col-md-9">
-				  	<form role="form" style="position: relative;">
-					  	<div class="row jumbotron">
-							<div class="col-md-offset-3 col-md-6 p0 tac">
-					  			<img src="http://placehold.it/100" class="avatar img-circle" alt="avatar">
-					  			<h6>Upload a different photo...</h6>
-					  			<input type="file" class="form-control">
-							</div>
-					  	</div>
-					  	<div class="col-md-4 p0">
-							<label class="col-lg-12 control-label" for="fn">First name:</label>
-							<div class="col-lg-12">
-						  		<input id="fn" class="form-control" type="text" value="Jane">
-							</div>
-					  	</div>
-					  	<div class="col-md-4 p0">
-							<label class="col-lg-12 control-label">Last name:</label>
-							<div class="col-lg-12">
-						  		<input class="form-control" type="text" value="Bishop">
-							</div>
-					  	</div>
-					 	<div class="col-md-4 p0">
-							<label class="col-lg-12 control-label">Email:</label>
-							<div class="col-lg-12">
-						  		<input class="form-control" type="email" value="Email">
-							</div>
-					  	</div>
-					  	<div class="col-md-4 p0">
-							<label class="col-lg-12 control-label">Time Zone:</label>
-							<div class="col-lg-12">
-							  	<div class="ui-select">
-									<select id="user_time_zone" class="form-control">
-									  	<option value="Hawaii">(GMT-10:00) Hawaii</option>
-									  	<option value="Alaska">(GMT-09:00) Alaska</option>
-									  	<option value="Pacific Time (US &amp; Canada)">(GMT-08:00) Pacific Time (US &amp; Canada)</option>
-									  	<option value="Arizona">(GMT-07:00) Arizona</option>
-									  	<option value="Mountain Time (US &amp; Canada)">(GMT-07:00) Mountain Time (US &amp; Canada)</option>
-									  	<option value="Central Time (US &amp; Canada)" selected="selected">(GMT-06:00) Central Time (US &amp; Canada)</option>
-									  	<option value="Eastern Time (US &amp; Canada)">(GMT-05:00) Eastern Time (US &amp; Canada)</option>
-									  	<option value="Indiana (East)">(GMT-05:00) Indiana (East)</option>
-									</select>
-							  	</div>
-							</div>
-					  	</div>
-					  	<div class="col-md-4 p0">
-							<label class="col-lg-12 control-label">Last name:</label>
-							<div class="col-lg-12">
-							  	<input class="form-control" type="text" value="Bishop">
-							</div>
-					  	</div>
-				  <div class="col-md-4 p0">
-					<label class="col-lg-12 control-label">Company:</label>
-					<div class="col-lg-12">
-					  <input class="form-control" type="text" value="Company">
+					<div class="col-xs-12 nav">
+						<ul>
+							<li class="showSingle active2" target="1">Obecné</li>
+							<li class="showSingle" target="2">Zabezpečení a přihlášení</li>
+							<li class="showSingle" target="3">Šablony</li>
+							<li class="showSingle" target="4">Soukromí</li>
+							<li class="showSingle" target="5">Jazyk</li>
+							<li class="showSingle" target="6">Upozornění</li>
+							<li class="showSingle" target="7">Mobil</li>
+							<li class="showSingle" target="8">Videa</li>
+							<li class="showSingle" target="9">Obrázky</li>
+						</ul>
 					</div>
-				  </div>
-				  <div class="col-md-12 p0">
-					<label class="col-md-3 control-label">Email:</label>
-					<div class="col-md-9">
-					  <input class="form-control" type="text" value="janesemail@gmail.com">
+					<div id="portfolio">
+						<div class="col-sm-12 portfolio-item">
+							<a href="#portfolioModal1" class="portfolio-link eqheight2" data-toggle="modal">
+								<div class="portfolio-hover">
+									<div class="portfolio-hover-content">
+										<i class="fa fa-search fa-3x"></i>
+										<p>PREWIEV</p>
+									</div>
+								</div>
+								<img src="img/theme/cv1.jpg" class="img-responsive" alt="">
+							</a>
+						</div>
 					</div>
-				  </div>
-				  <div class="col-md-12 p0">
-					<label class="col-md-3 control-label">Username:</label>
-					<div class="col-md-9">
-					  <input class="form-control" type="text" value="janeuser">
-					</div>
-				  </div>
-				  <div class="col-md-12 p0">
-					<label class="col-md-3 control-label">Password:</label>
-					<div class="col-md-9">
-					  <input class="form-control" type="password" value="11111122333">
-					</div>
-				  </div>
-				  <div class="col-md-12 p0">
-					<label class="col-md-3 control-label">Confirm password:</label>
-					<div class="col-md-9">
-					  <input class="form-control" type="password" value="11111122333">
-					</div>
-				  </div>
-				  <div class="col-md-12 p0">
-					<label class="col-md-3 control-label"></label>
-					<div class="col-md-9">
-					  <input type="button" class="btn btn-primary" value="Save Changes">
-					  <span></span>
-					  <input type="reset" class="btn btn-default" value="Cancel">
-					</div>
-				  </div>
-				  <div class="col-md-4 p0">
-					<label class="col-lg-12 control-label">Last name:</label>
-					<div class="col-lg-12">
-					  <input class="form-control" type="text" value="Bishop">
-					</div>
-				  </div>
-				  <div class="col-md-4 p0">
-					<label class="col-lg-12 control-label">Company:</label>
-					<div class="col-lg-12">
-					  <input class="form-control" type="text" value="Company">
-					</div>
-				  </div>
-				  <div class="">
-					<label class="col-lg-3 control-label">Email:</label>
-					<div class="col-lg-8">
-					  <input class="form-control" type="text" value="janesemail@gmail.com">
-					</div>
-				  </div>
-				  <div class="">
-					<label class="col-md-3 control-label">Username:</label>
-					<div class="col-md-8">
-					  <input class="form-control" type="text" value="janeuser">
-					</div>
-				  </div>
-				  <div class="">
-					<label class="col-md-3 control-label">Password:</label>
-					<div class="col-md-8">
-					  <input class="form-control" type="password" value="11111122333">
-					</div>
-				  </div>
-				  <div class="">
-					<label class="col-md-3 control-label">Confirm password:</label>
-					<div class="col-md-8">
-					  <input class="form-control" type="password" value="11111122333">
-					</div>
-				  </div>
-				  <div class="">
-					<label class="col-md-3 control-label"></label>
-					<div class="col-md-8">
-					  <input type="button" class="btn btn-primary" value="Save Changes">
-					  <span></span>
-					  <input type="reset" class="btn btn-default" value="Cancel">
-					</div>
-				  </div>
-				  <div class="col-md-4 p0">
-					<label class="col-lg-12 control-label">Last name:</label>
-					<div class="col-lg-12">
-					  <input class="form-control" type="text" value="Bishop">
-					</div>
-				  </div>
-				  <div class="col-md-4 p0">
-					<label class="col-lg-12 control-label">Company:</label>
-					<div class="col-lg-12">
-					  <input class="form-control" type="text" value="Company">
-					</div>
-				  </div>
-				  <div class="">
-					<label class="col-lg-3 control-label">Email:</label>
-					<div class="col-lg-8">
-					  <input class="form-control" type="text" value="janesemail@gmail.com">
-					</div>
-				  </div>
-				  <div class="">
-					<label class="col-md-3 control-label">Username:</label>
-					<div class="col-md-8">
-					  <input class="form-control" type="text" value="janeuser">
-					</div>
-				  </div>
-				  <div class="">
-					<label class="col-md-3 control-label">Password:</label>
-					<div class="col-md-8">
-					  <input class="form-control" type="password" value="11111122333">
-					</div>
-				  </div>
-				  <div class="">
-					<label class="col-md-3 control-label">Confirm password:</label>
-					<div class="col-md-8">
-					  <input class="form-control" type="password" value="11111122333">
-					</div>
-				  </div>
-				  <div class="">
-					<label class="col-md-3 control-label"></label>
-					<div class="col-md-8">
-					  <input type="button" class="btn btn-primary" value="Save Changes">
-					  <span></span>
-					  <input type="reset" class="btn btn-default" value="Cancel">
-					</div>
-				  </div><div class="col-md-4 p0">
-					<label class="col-lg-12 control-label">Last name:</label>
-					<div class="col-lg-12">
-					  <input class="form-control" type="text" value="Bishop">
-					</div>
-				  </div>
-				  <div class="col-md-4 p0">
-					<label class="col-lg-12 control-label">Company:</label>
-					<div class="col-lg-12">
-					  <input class="form-control" type="text" value="Company">
-					</div>
-				  </div>
-				  <div class="">
-					<label class="col-lg-3 control-label">Email:</label>
-					<div class="col-lg-8">
-					  <input class="form-control" type="text" value="janesemail@gmail.com">
-					</div>
-				  </div>
-				  <div class="">
-					<label class="col-md-3 control-label">Username:</label>
-					<div class="col-md-8">
-					  <input class="form-control" type="text" value="janeuser">
-					</div>
-				  </div>
-				  <div class="">
-					<label class="col-md-3 control-label">Password:</label>
-					<div class="col-md-8">
-					  <input class="form-control" type="password" value="11111122333">
-					</div>
-				  </div>
-				  <div class="">
-					<label class="col-md-3 control-label">Confirm password:</label>
-					<div class="col-md-8">
-					  <input class="form-control" type="password" value="11111122333">
-					</div>
-				  </div>
-				  <div class="">
-					<label class="col-md-3 control-label"></label>
-					<div class="col-md-8">
-					  <input type="button" class="btn btn-primary" value="Save Changes">
-					  <span></span>
-					  <input type="reset" class="btn btn-default" value="Cancel">
-					</div>
-				  </div>
-				  <div class="col-md-4 p0">
-					<label class="col-lg-12 control-label">Last name:</label>
-					<div class="col-lg-12">
-					  <input class="form-control" type="text" value="Bishop">
-					</div>
-				  </div>
-				  <div class="col-md-4 p0">
-					<label class="col-lg-12 control-label">Company:</label>
-					<div class="col-lg-12">
-					  <input class="form-control" type="text" value="Company">
-					</div>
-				  </div>
-				  <div class="">
-					<label class="col-lg-3 control-label">Email:</label>
-					<div class="col-lg-8">
-					  <input class="form-control" type="text" value="janesemail@gmail.com">
-					</div>
-				  </div>
-				  <div class="">
-					<label class="col-md-3 control-label">Username:</label>
-					<div class="col-md-8">
-					  <input class="form-control" type="text" value="janeuser">
-					</div>
-				  </div>
-				  <div class="">
-					<label class="col-md-3 control-label">Password:</label>
-					<div class="col-md-8">
-					  <input class="form-control" type="password" value="11111122333">
-					</div>
-				  </div>
-				  <div class="">
-					<label class="col-md-3 control-label">Confirm password:</label>
-					<div class="col-md-8">
-					  <input class="form-control" type="password" value="11111122333">
-					</div>
-				  </div>
-				  <div class="">
-					<label class="col-md-3 control-label"></label>
-					<div class="col-md-8">
-					  <input type="button" class="btn btn-primary" value="Save Changes">
-					  <span></span>
-					  <input type="reset" class="btn btn-default" value="Cancel">
-					</div>
-				  </div><div class="col-md-4 p0">
-					<label class="col-lg-12 control-label">Last name:</label>
-					<div class="col-lg-12">
-					  <input class="form-control" type="text" value="Bishop">
-					</div>
-				  </div>
-				  <div class="col-md-4 p0">
-					<label class="col-lg-12 control-label">Company:</label>
-					<div class="col-lg-12">
-					  <input class="form-control" type="text" value="Company">
-					</div>
-				  </div>
-				  <div class="">
-					<label class="col-lg-3 control-label">Email:</label>
-					<div class="col-lg-8">
-					  <input class="form-control" type="text" value="janesemail@gmail.com">
-					</div>
-				  </div>
-				  <div class="">
-					<label class="col-md-3 control-label">Username:</label>
-					<div class="col-md-8">
-					  <input class="form-control" type="text" value="janeuser">
-					</div>
-				  </div>
-				  <div class="">
-					<label class="col-md-3 control-label">Password:</label>
-					<div class="col-md-8">
-					  <input class="form-control" type="password" value="11111122333">
-					</div>
-				  </div>
-				  <div class="">
-					<label class="col-md-3 control-label">Confirm password:</label>
-					<div class="col-md-8">
-					  <input class="form-control" type="password" value="11111122333">
-					</div>
-				  </div>
-				  <div class="">
-					<label class="col-md-3 control-label"></label>
-					<div class="col-md-8">
-					  <input type="button" class="btn btn-primary" value="Save Changes">
-					  <span></span>
-					  <input type="reset" class="btn btn-default" value="Cancel">
-					</div>
-				  </div>
-				  <div class="col-md-4 p0">
-					<label class="col-lg-12 control-label">Last name:</label>
-					<div class="col-lg-12">
-					  <input class="form-control" type="text" value="Bishop">
-					</div>
-				  </div>
-				  <div class="col-md-4 p0">
-					<label class="col-lg-12 control-label">Company:</label>
-					<div class="col-lg-12">
-					  <input class="form-control" type="text" value="Company">
-					</div>
-				  </div>
-				  <div class="">
-					<label class="col-lg-3 control-label">Email:</label>
-					<div class="col-lg-8">
-					  <input class="form-control" type="text" value="janesemail@gmail.com">
-					</div>
-				  </div>
-				  <div class="">
-					<label class="col-md-3 control-label">Username:</label>
-					<div class="col-md-8">
-					  <input class="form-control" type="text" value="janeuser">
-					</div>
-				  </div>
-				  <div class="">
-					<label class="col-md-3 control-label">Password:</label>
-					<div class="col-md-8">
-					  <input class="form-control" type="password" value="11111122333">
-					</div>
-				  </div>
-				  <div class="">
-					<label class="col-md-3 control-label">Confirm password:</label>
-					<div class="col-md-8">
-					  <input class="form-control" type="password" value="11111122333">
-					</div>
-				  </div>
-				  <div class="">
-					<label class="col-md-3 control-label"></label>
-					<div class="col-md-8">
-					  <input type="button" class="btn btn-primary" value="Save Changes">
-					  <span></span>
-					  <input type="reset" class="btn btn-default" value="Cancel">
-					</div>
-				  </div><div class="col-md-4 p0">
-					<label class="col-lg-12 control-label">Last name:</label>
-					<div class="col-lg-12">
-					  <input class="form-control" type="text" value="Bishop">
-					</div>
-				  </div>
-				  <div class="col-md-4 p0">
-					<label class="col-lg-12 control-label">Company:</label>
-					<div class="col-lg-12">
-					  <input class="form-control" type="text" value="Company">
-					</div>
-				  </div>
-				  <div class="">
-					<label class="col-lg-3 control-label">Email:</label>
-					<div class="col-lg-8">
-					  <input class="form-control" type="text" value="janesemail@gmail.com">
-					</div>
-				  </div>
-				  <div class="">
-					<label class="col-md-3 control-label">Username:</label>
-					<div class="col-md-8">
-					  <input class="form-control" type="text" value="janeuser">
-					</div>
-				  </div>
-				  <div class="">
-					<label class="col-md-3 control-label">Password:</label>
-					<div class="col-md-8">
-					  <input class="form-control" type="password" value="11111122333">
-					</div>
-				  </div>
-				  <div class="">
-					<label class="col-md-3 control-label">Confirm password:</label>
-					<div class="col-md-8">
-					  <input class="form-control" type="password" value="11111122333">
-					</div>
-				  </div>
-				  <div class="">
-					<label class="col-md-3 control-label"></label>
-					<div class="col-md-8">
-					  <input type="button" class="btn btn-primary" value="Save Changes">
-					  <span></span>
-					  <input type="reset" class="btn btn-default" value="Cancel">
-					</div>
-				  </div>
-				</form>
-				<div class="col-md-12 personal-info">
-				<div class="alert alert-info alert-dismissable">
-				  <a class="panel-close close" data-dismiss="alert">×</a> 
-				  <i class="fa fa-coffee"></i>
-				  This is an <strong>.alert</strong>. Use this to show important messages to the user.
 				</div>
-			  </div>
-			  </div>
-
-
-
-
-
-			  <!-- edit form column -->
-	  
-  </div>
-</div>
-<hr>
-	  </form>
-					<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-				        <div class="modal-dialog">
-				            <div class="modal-content">
-				                <div class="close-modal" data-dismiss="modal">
-				                    <div class="lr">
-				                        <div class="rl">
-				                        </div>
-				                    </div>
-				                </div>
-				                <div class="container">
-				                    <div class="row">
-				                        <div class="col-lg-8 col-lg-offset-2">
-				                            <div class="modal-body">
-				                                <!-- Project Details Go Here -->
-				                                <h2>Project Name</h2>
-				                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-				                                <img class="img-responsive img-centered" src="img/theme/cv1.jpg" alt="">
-				                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-				                                <p>
-				                                    <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
-				                                <ul class="list-inline">
-				                                    <li>Date: July 2014</li>
-				                                    <li>Client: Round Icons</li>
-				                                    <li>Category: Graphic Design</li>
-				                                </ul>
-				                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-				                            </div>
-				                        </div>
-				                    </div>
-				                </div>
-				            </div>
-				        </div>
-				    </div>
+				<!-- right column -->
+				<div class="col-md-9">
+					<div class="col-md-12 hidediv mt30" id="div1">
+						<form role="form">
+							<!--<div class="row jumbotron">
+								<div class="col-md-offset-3 col-md-6 p0 tac">
+									<img src="http://placehold.it/100" class="avatar img-circle" alt="avatar">
+									<h6>Upload a different photo...</h6>
+									<input type="file" class="form-control">
+								</div>
+							</div>-->
+							<table class="table table-sm">
+							  	<thead>
+									<tr>
+									  	<th colspan="4">Obecná nastavení účtu</th>
+									</tr>
+							  	</thead>
+							  	<tbody>
+									<tr>
+									 	<td>First name:</td>
+									  	<td><input id="fn" class="form-control" type="text" value="Jane"></td>
+									  	<td>Upravit</td>
+									</tr>
+									<tr>
+									  	<td>Last name:</td>
+									  	<td>Thornton</td>
+									  	<td>@fat</td>
+									</tr>
+									<tr>
+									  	<td>Email:</td>
+									  	<td>Thornton</td>
+									  	<td>@fat</td>
+									</tr>
+							  	</tbody>
+							</table>
+							<div class="col-md-4 p0">
+								<label class="col-lg-12 control-label" for="fn">First name:</label>
+								<div class="col-lg-12">
+									<input id="fn" class="form-control" type="text" value="Jane">
+								</div>
+							</div>
+							<div class="col-md-4 p0">
+								<label class="col-lg-12 control-label">Last name:</label>
+								<div class="col-lg-12">
+									<input class="form-control" type="text" value="Bishop">
+								</div>
+							</div>
+							<div class="col-md-4 p0">
+								<label class="col-lg-12 control-label">Email:</label>
+								<div class="col-lg-12">
+									<input class="form-control" type="email" value="Email">
+								</div>
+							</div>
+							<div class="col-md-4 p0">
+								<label class="col-lg-12 control-label">Country</label>
+								<div class="col-lg-12">
+									<div class="ui-select">
+										<select id="user_time_zone" class="form-control">
+											<option value="Hawaii">(GMT-10:00) Hawaii</option>
+											<option value="Alaska">(GMT-09:00) Alaska</option>
+											<option value="Pacific Time (US &amp; Canada)">(GMT-08:00) Pacific Time (US &amp; Canada)</option>
+											<option value="Arizona">(GMT-07:00) Arizona</option>
+											<option value="Mountain Time (US &amp; Canada)">(GMT-07:00) Mountain Time (US &amp; Canada)</option>
+											<option value="Central Time (US &amp; Canada)" selected="selected">(GMT-06:00) Central Time (US &amp; Canada)</option>
+											<option value="Eastern Time (US &amp; Canada)">(GMT-05:00) Eastern Time (US &amp; Canada)</option>
+											<option value="Indiana (East)">(GMT-05:00) Indiana (East)</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 p0">
+								<label class="col-lg-12 control-label">Last name:</label>
+								<div class="col-lg-12">
+									<input class="form-control" type="text" value="Bishop">
+								</div>
+							</div>
+							<div class="col-md-4 p0">
+								<label class="col-lg-12 control-label">Company:</label>
+								<div class="col-lg-12">
+									<input class="form-control" type="text" value="Company">
+								</div>
+							</div>
+							<div class="col-md-12 p0">
+								<label class="col-md-3 control-label">Email:</label>
+								<div class="col-md-9">
+									<input class="form-control" type="text" value="janesemail@gmail.com">
+								</div>
+							</div>
+							<div class="col-md-12 p0">
+								<label class="col-md-3 control-label">Username:</label>
+								<div class="col-md-9">
+									<input class="form-control" type="text" value="janeuser">
+								</div>
+							</div>
+							<div class="col-md-12 p0">
+								<label class="col-md-3 control-label">Password:</label>
+								<div class="col-md-9">
+									<input class="form-control" type="password" value="11111122333">
+								</div>
+							</div>
+							<div class="col-md-12 p0">
+								<label class="col-md-3 control-label">Confirm password:</label>
+								<div class="col-md-9">
+									<input class="form-control" type="password" value="11111122333">
+								</div>
+							</div>
+							<div class="col-md-12 tar">
+								<input type="reset" class="btn btn-default" value="Cancel">
+								<span></span>
+								<input type="button" class="btn btn-primary" value="Save Changes">
+							</div>
+						</form>
+					</div>
+					<div class="col-md-12 gallery-container hidediv" id="div8" style="display: none;">
+						<div class="tz-gallery">
+							<div class="row">
+								<!--<div class="col-md-6 col-sm-6 col-xs-12">
+									<iframe width="100%" height="100%" src="https://www.youtube.com/embed/NtDG-Cnj-pw" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<div class="col-md-6 col-sm-6 col-xs-12">
+									<iframe width="100%" height="100%" src="https://www.youtube.com/embed/NtDG-Cnj-pw" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<div class="col-md-6 col-sm-6 col-xs-12">
+									<iframe width="100%" height="100%" src="https://www.youtube.com/embed/NtDG-Cnj-pw" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<div class="col-md-6 col-sm-6 col-xs-12">
+									<iframe width="100%" height="100%" src="https://www.youtube.com/embed/NtDG-Cnj-pw" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<div class="col-md-6 col-sm-6 col-xs-12">
+									<iframe width="100%" height="100%" src="https://www.youtube.com/embed/NtDG-Cnj-pw" frameborder="0" allowfullscreen></iframe>
+								</div> 
+								<div class="col-md-6 col-sm-6 col-xs-12">
+									<iframe width="100%" height="100%" src="https://www.youtube.com/embed/NtDG-Cnj-pw" frameborder="0" allowfullscreen></iframe>
+								</div>-->
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 gallery-container hidediv" id="div9" style="display: none;">
+						<div class="tz-gallery">
+							<div class="row">
+								<div class="col-sm-12 col-md-4">
+									<a class="lightbox" href="img/demonstration/bridge.jpg">
+										<img src="img/demonstration/bridge.jpg" alt="Bridge">
+									</a>
+								</div>
+								<div class="col-sm-6 col-md-4">
+									<a class="lightbox" href="img/demonstration/park.jpg">
+										<img src="img/demonstration/park.jpg" alt="Park">
+									</a>
+								</div>
+								<div class="col-sm-6 col-md-4">
+									<a class="lightbox" href="img/demonstration/tunnel.jpg">
+										<img src="img/demonstration/tunnel.jpg" alt="Tunnel">
+									</a>
+								</div>
+								<div class="col-sm-12 col-md-8">
+									<a class="lightbox" href="img/demonstration/traffic.jpg">
+										<img src="img/demonstration/traffic.jpg" alt="Traffic">
+									</a>
+								</div>
+								<div class="col-sm-6 col-md-4">
+									<a class="lightbox" href="img/demonstration/coast.jpg">
+										<img src="img/demonstration/coast.jpg" alt="Coast">
+									</a>
+								</div> 
+								<div class="col-sm-6 col-md-4">
+									<a class="lightbox" href="img/demonstration/rails.jpg">
+										<img src="img/demonstration/rails.jpg" alt="Rails">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="close-modal" data-dismiss="modal">
+								<div class="lr">
+									<div class="rl">
+									</div>
+								</div>
+							</div>
+							<div class="container">
+								<div class="row">
+									<div class="col-lg-8 col-lg-offset-2">
+										<div class="modal-body">
+											<!-- Project Details Go Here -->
+											<h2>Project Name</h2>
+											<p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+											<img class="img-responsive img-centered" src="img/theme/cv1.jpg" alt="">
+											<p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+											<p>
+												<strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
+											<ul class="list-inline">
+												<li>Date: July 2014</li>
+												<li>Client: Round Icons</li>
+												<li>Category: Graphic Design</li>
+											</ul>
+											<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="se-pre-con"></div>
 		<script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="js/grids.min.js"></script>
-    <script src="js/swiper.js"></script>
-        <script>
-        function showhide()
-            {
-                    var div = document.getElementById("showinfo");
-        if (div.style.display !== "none") {
-                div.style.display = "none";
-        }
-        else {
-                div.style.display = "block";
-        }
-            }
-        </script>
-        <script type="text/javascript">
-             $('.eqheight2').responsiveEqualHeightGrid();
-        </script>
-        <script>
-	    var swiper = new Swiper('.swiper-container', {
-	      slidesPerView: 1,
-	      spaceBetween: 30,
-	      loop: true,
-	      pagination: {
-	        el: '.swiper-pagination',
-	        clickable: true,
-	      },
-	      navigation: {
-	        nextEl: '.swiper-button-next',
-	        prevEl: '.swiper-button-prev',
-	      },
-	    });
+		<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+		<script src="js/grids.min.js"></script>
+		<script src="js/swiper.js"></script>
+		<script src="js/jqBootstrapValidation.js"></script>
+		<script src="js/imageupload.js"></script>
+		<script src="js/mdb.js"></script>
+		<script src="js/contact_me.js"></script>
+		<script src="js/baguetteBox.js"></script>
+		<script src="js/agency.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+
+		<script>
+			//paste this code under head tag or in a seperate js file.
+			// Wait for window load
+			$(window).load(function() {
+				// Animate loader off screen
+				$(".se-pre-con").fadeOut("slow");;
+			});
+		</script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.showSingle').click(function(){
+				$('.hidediv').hide();
+				$('#div'+$(this).attr('target')).show();
+				});
+
+				$(".nav ul li").on("click", function() {
+					$("li").removeClass("active2");
+					$(this).addClass("active2");
+				});
+			});
 		</script>
 		<script>
-			$("#profileImage").click(function(e) {
-			    $("#imageUpload").click();
-			});
-
-			function fasterPreview( uploader ) {
-			    if ( uploader.files && uploader.files[0] ){
-			          $('#profileImage').attr('src', 
-			             window.URL.createObjectURL(uploader.files[0]) );
-			    }
+			function showhide(){
+				var div = document.getElementById("showinfo");
+				if (div.style.display !== "none") {
+					div.style.display = "none";
+				}
+				else {
+					div.style.display = "block";
+				}
 			}
-
-			$("#imageUpload").change(function(){
-			    fasterPreview( this );
+		</script>
+		<script type="text/javascript">
+			 $('.eqheight2').responsiveEqualHeightGrid();
+		</script>
+		<script>
+			var swiper = new Swiper('.swiper-container', {
+			  slidesPerView: 1,
+			  spaceBetween: 30,
+			  loop: true,
+			  pagination: {
+				el: '.swiper-pagination',
+				clickable: true,
+			  },
+			  navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+			  },
 			});
 		</script>
 		<script>
-			$('#image-cropper').cropit({ imageBackground: true });
+			$(document).ready(function(){
+				$( "#myModal" ).on('shown.bs.modal', function(){
+					$('#modaldialog').html5imageupload();
+				});
+			});
 		</script>
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+		<!-- Contact Form JavaScript -->
+		<script>
+			$('#retrievingfilename').html5imageupload({
+				onAfterProcessImage: function() {
+					$('#filename').val($(this.element).data('name'));
+				},
+				onAfterCancel: function() {
+					$('#filename').val('');
+				}
+				
+			});
+			
+			$('#save').html5imageupload({
+				onSave: function(data) {
+					console.log(data);
+				},
+				
+			});
+			
+			$('.dropzone').html5imageupload();
+			
+			$( "#myModal" ).on('shown.bs.modal', function(){
+				$('#modaldialog').html5imageupload();
+			});
+			/*
+			$('#form').html5imageupload({
+				onAfterProcessImage: function() {
+					$(this.element).closest('form').submit();
+				}
+			});
+			
+			$('form button.btn').unbind('click').click(function(e) {
+				  e.preventDefault()
+				  $(this).closest('form').find('#form').data('html5imageupload').imageCrop()
+			});*/
+		</script>
+		<script>
+			baguetteBox.run('.tz-gallery');
+		</script>
 
-    <!-- Theme JavaScript -->
-    <script src="js/agency.js"></script>
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-
+		<!-- Theme JavaScript -->
 		</body>
+	<!-- Ends -->
+	
 </html>
