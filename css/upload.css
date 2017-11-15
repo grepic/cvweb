@@ -1,8 +1,12 @@
 .sticky-upload {
 	position: sticky;
 	top: 0px;
-	background: blue;
+	border-right: 2px solid black;
 	overflow: hidden; /* Delete after PHP*/
+
+}
+.border-language {
+	border-bottom: 1px solid #000000;
 }
 .form-control {
 	margin: 0;
@@ -46,7 +50,7 @@
 
 html, body						{ font-family: arial; }
 
-.dropzone						{ background-color: #eeeeee; text-align: center; position: relative; border: 1px solid #dddddd; display: inline-block;  border-radius: 50%; margin-top: 20px; margin-bottom: 20px;}
+.dropzone						{ background-color: #eeeeee; text-align: center; position: relative; border: 1px solid #dddddd; display: inline-block;  border-radius: 50%; margin-top: 20px; margin-bottom: 20px; overflow: hidden;}
 .dropzone:after					{ content: 'Drop your image here or click to add one!'; font-size: 30px; color: #bbbbbb; position: absolute; bottom: 40%; left: 0; width: 100%; text-align: center; z-index:0;}
 .dropzone:before				{ content: ''; font-family:"Glyphicons Halflings"; font-size: 60px; color: #dbdbdb; position: absolute; top: 40%; left: 0; width: 100%; text-align: center; z-index:0;}
 
