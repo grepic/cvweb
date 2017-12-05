@@ -9,7 +9,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<title>Agency - Start Bootstrap Theme</title>
+	<title>Personal CV</title>
 
 	<!-- Bootstrap Core CSS -->
 	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -599,45 +599,8 @@
 		<script src="js/baguetteBox.js"></script>
 		<script src="js/agency.js"></script>
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
 
-		<script>
-			var COOKIE_NAME = 'the_cookie';
-
-			// set cookie to automatically use JSON format
-			jQuery.cookie.json = true;
-
-			// retrieve or initialize favorites array
-			var favorites = jQuery.cookie(COOKIE_NAME) || [];
-
-			// collect all option elements in the dom
-			var options = jQuery('.showSingle');
-
-			// restore favorites in dom
-			for(var id in favorites)
-			{
-			    options.filter('#'+favorites[id]).addClass("favorite");
-			}
-
-			options.click(function() {
-			    // dom element
-			    var element = jQuery(this);
-
-			    // element id
-			    var id = element.attr('id');
-
-			    // toggle favorite class on the element itself
-			    element.toggleClass("favorite");
-
-			    // add or remove element id from array of favorites
-			    if(element.hasClass("favorite"))
-			        favorites.push(id);
-			    else
-			        favorites.splice(favorites.indexOf(id),1);
-
-			    // store updated favorites in the cookie
-			    jQuery.cookie(COOKIE_NAME, favorites);
-			});
-		</script>
 		<script>
 			//paste this code under head tag or in a seperate js file.
 			// Wait for window load
@@ -646,7 +609,23 @@
 				$(".se-pre-con").fadeOut("slow");;
 			});
 		</script>
-		<script type="text/javascript">
+		<script>
+			$(document).ready(function(){
+				$('.showSingle').click(function(){
+					$('.hidediv').hide();
+					$('#div'+$(this).attr('target')).show();
+          $.cookie('target', $(this).attr('target'), 5);
+				});
+        
+        $( "li[target="+$.cookie('target')+"]" ).trigger( "click" );
+
+				$(".nav ul li").on("click", function() {
+					$("li").removeClass("active2");
+					$(this).addClass("active2");
+				});
+			});
+		</script>
+		<!--<script type="text/javascript">
 			$(document).ready(function(){
 				$('.showSingle').click(function(){
 				$('.hidediv').hide();
@@ -658,7 +637,7 @@
 					$(this).addClass("active2");
 				});
 			});
-		</script>
+		</script>-->
 		<script>
 			function showhide(){
 				var div = document.getElementById("showinfo");
